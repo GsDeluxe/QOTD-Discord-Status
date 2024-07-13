@@ -25,9 +25,9 @@ crontab -e
 - Get timing using [crontab.guru](https://crontab.guru/)
 
 ```
-0 3 * * * /usr/bin/python3 /path/to/script/main.py >> /path/to/logfile.log 2>&1
+5 0 * * * /usr/bin/python3 /path/to/script/main.py >> /path/to/logfile.log 2>&1
 ```
-> This crontab timing will make it run everyday at 3am
+> This crontab timing will make it run everyday at 12:05am
 
 - Save and exit
 
